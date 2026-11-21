@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# Large datasets
+dataset/raw/*.txt
+dataset/raw/*.csv
+
+# Trained model files
+model/*.pkl
+model/*.joblib
+
+# Temporary files
+*.log
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+dataset/raw/household_power_consumption.txt
+dataset/raw/household_power_consumption - Copy.txt
+model/best_tuned_model.pkl
